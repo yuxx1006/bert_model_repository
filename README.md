@@ -1,6 +1,6 @@
-# bert_classifier_project
-# Desc：bert model for product classification in nlp
-## 1. 路径说明
+# Bert_classification_model
+## Desc：bert model for text classification, and the service is deployed on Triton server
+### 1. 路径说明
 ```html
 bert_model_repository --所有文件都放在此文件夹下
     flow --bert python backend前后处理流
