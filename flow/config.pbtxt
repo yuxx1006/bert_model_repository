@@ -1,0 +1,20 @@
+name: "flow" # 模型名称
+backend: "python" # 后端处理
+
+# 输入参数
+input [
+  {
+    name: "INPUT"
+    data_type: TYPE_STRING
+    dims: [ -1 ]
+  }
+]
+
+# 输出结果
+output [
+  {
+    name: "OUTPUT"
+    data_type: TYPE_STRING
+    dims: [ -1 ]
+  }
+]
