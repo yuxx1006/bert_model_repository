@@ -18,4 +18,12 @@ bert_model_repository --所有文件都放在此文件夹下
     - catid3_and_catname3 （id2name对应关系）
     - class.txt （1927 商品类别）
     - vocab.txt （berttokenizer）
+
+### 2. Performance test on Nvidia Tesla V100
+perf_analyzer -m flow -u xx.xxx.x.xxx:8021 -i gRPC --input-data="random" --shape INPUT:1
+Throughput: 162.4 infer/sec
+Avg request latency: 6051 usec
+
+
+
 ```
