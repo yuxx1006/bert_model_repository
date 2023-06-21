@@ -1,5 +1,6 @@
 # Bert_classification_model
 ## Desc：bert model for text classification, and the service is deployed on Triton server
+#### Details descriptions can be found in this medium [article](https://medium.com/p/239a5cf43fd9)
 ### 1. 路径说明
 ```html
 bert_model_repository --所有文件都放在此文件夹下
